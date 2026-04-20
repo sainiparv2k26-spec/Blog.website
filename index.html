@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiet Letters</title>
+  <meta
+    name="description"
+    content="A minimal blog, newsletter, and journal website built as a static site."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <span class="brand-mark">QL</span>
+        <div>
+          <h1>Quiet Letters</h1>
+          <p>Blogs, newsletters, and journal notes</p>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#posts">Posts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">A calm space for daily writing</p>
+          <h2>Thoughtful posts, newsletters, and journal reflections in one place.</h2>
+          <p class="hero-text">
+            A clean, read-only public website where ideas, updates, and personal notes
+            are published in a simple reading experience.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#posts">Read Posts</a>
+            <a class="btn btn-light" href="#about">Learn More</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <h3>Inside this website</h3>
+          <ul>
+            <li>Blog posts with longer thoughts</li>
+            <li>Newsletters with short updates</li>
+            <li>Journal entries and personal notes</li>
+            <li>Fast, responsive reading on any device</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>A minimal publishing site built for clarity.</h2>
+          <p>
+            This website is designed as a static publishing space for blogs,
+            newsletters, and journal entries. Public visitors can only read posts.
+            New content is added manually by editing a simple JavaScript array.
+          </p>
+          <p>
+            It is lightweight, GitHub Pages-friendly, and easy to maintain without
+            any backend or dashboard.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h3>Static site setup</h3>
+          <p>
+            No backend, no login, no admin panel. Just edit the post data in
+            <strong>script.js</strong>, push to GitHub, and your updates go live.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="posts" class="section posts-section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Posts</p>
+            <h2>Latest writing</h2>
+          </div>
+          <p class="section-subtext">
+            Search, filter by category, and browse posts sorted by newest first.
+          </p>
+        </div>
+
+        <div class="toolbar">
+          <div class="search-wrap">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search posts..."
+              aria-label="Search posts"
+            />
+          </div>
+
+          <div class="filters" aria-label="Filter posts by category">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="blog">Blogs</button>
+            <button class="filter-btn" data-category="newsletter">Newsletters</button>
+            <button class="filter-btn" data-category="journal">Journal</button>
+          </div>
+        </div>
+
+        <div class="results-bar">
+          <p id="resultsCount">0 posts</p>
+          <p class="sort-note">Sorted by newest</p>
+        </div>
+
+        <div id="postsGrid" class="posts-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="postModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+      <button id="closeModalBtn" class="close-modal" aria-label="Close post">
+        &times;
+      </button>
+
+      <article id="modalArticle" class="modal-article"></article>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Quiet Letters</p>
+      <p>Static blog, newsletter, and journal site</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
