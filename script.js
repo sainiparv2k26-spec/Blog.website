@@ -21,6 +21,35 @@ Because at the end of the day, cannabis isn’t just about getting “higher” 
 YYC Writer`,
     image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0079.jpeg"
   }
+
+,
+{
+  id: 2,
+  title: "YYC Tech Perspective: Calgary’s Rise as a Data and IT Hub",
+  date: "2026-04-21",
+  excerpt: "Calgary is quietly emerging as a growing tech and data hub, offering affordability, talent, and long-term potential in the digital economy.",
+  content: `Something interesting is happening in Calgary right now. For years, this city has been known for oil, gas, and engineering. But quietly, another story is starting to take shape. Calgary is stepping into the world of tech, and more specifically, into the future of data.
+
+Across North America, the demand for data is growing fast. Everything from streaming to artificial intelligence depends on massive data centres. Cities like Toronto and Vancouver have had a head start, but they are becoming expensive and crowded. That is where Calgary begins to stand out.
+
+There are some simple reasons behind this shift. Land here is more affordable. Energy is reliable and easier to access. The climate also helps, since cooler temperatures reduce the cost of keeping data centres running. These are not flashy advantages, but they matter a lot to companies making long term investments.
+
+At the same time, Calgary already has something valuable. A strong base of engineers and problem solvers. Many professionals from the energy sector are now moving into tech, bringing with them real world experience and technical thinking. This creates a unique kind of workforce that blends old industry knowledge with new digital skills.
+
+It is important to be realistic though. Calgary is not the largest data centre hub in North America, and it is not trying to be overnight. What is happening is slower and more grounded. Companies are starting to look at Calgary as a place where they can build, grow, and scale without the pressure of bigger markets.
+
+There is also a bigger conversation around sustainability. Data centres use a lot of energy, and the world is paying attention to that. Alberta is working toward cleaner energy solutions, and if Calgary can connect its tech growth with more sustainable power, it could become an attractive option for companies that care about their environmental impact.
+
+For the city, this shift means more than just new buildings or infrastructure. It is about identity. Calgary is beginning to move from being only an energy city to becoming part of the digital economy. That transition will take time, but the foundation is already there.
+
+In the coming years, Calgary may not try to compete directly with the biggest tech cities. Instead, it can build its own path. A place where growth is steady, costs are manageable, and opportunities are real.
+
+Because the future of power is changing. It is no longer only about what comes from the ground. It is also about the data we create, store, and use every day.
+
+— Leon Zen  
+YYC Writer`,
+  image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0086.jpeg"
+}
 ];
 
 const postsGrid = document.getElementById("postsGrid");
