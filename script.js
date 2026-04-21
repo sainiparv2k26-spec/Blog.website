@@ -1,23 +1,3 @@
-/*
-  HOW TO ADD A NEW NEWSLETTER
-
-  1. Copy one object inside the posts array.
-  2. Change the id to a new unique number.
-  3. Keep date format as YYYY-MM-DD so newest sorting works.
-  4. Add title, excerpt, full content, and optional image.
-  5. Save, commit, and push to GitHub.
-
-  Example:
-  {
-    id: 2,
-    title: "Your New YYC Newsletter",
-    date: "2026-04-21",
-    excerpt: "A short preview shown on the card.",
-    content: `Write the full newsletter here.`,
-    image: ""
-  }
-*/
-
 const posts = [
   {
     id: 1,
@@ -39,7 +19,7 @@ Because at the end of the day, cannabis isn’t just about getting “higher” 
 
 — Leon Zen
 YYC Writer`,
-    image: "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=1400&q=80"
+    image: "cannabis-closeup.jpg"
   }
 ];
 
@@ -115,11 +95,9 @@ function renderPosts() {
           ${imageMarkup}
           <div class="post-body">
             <span class="post-label">Newsletter</span>
-
             <div class="post-meta">
               <span class="post-date">${formatDisplayDate(post.date)}</span>
             </div>
-
             <h3 class="post-title">${escapeHtml(post.title)}</h3>
             <p class="post-excerpt">${escapeHtml(post.excerpt)}</p>
             <button class="read-btn" data-post-id="${post.id}">Read Full Issue →</button>
