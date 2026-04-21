@@ -19,7 +19,7 @@ Because at the end of the day, cannabis isn’t just about getting “higher” 
 
 — Leon Zen
 YYC Writer`,
-    image: "https://unsplash.com/photos/green-kush-on-white-textile-zwc6BD4_RDE"
+    image: "https://share.google/MAGa3w8RWszOY6bVX"
   }
 ];
 
