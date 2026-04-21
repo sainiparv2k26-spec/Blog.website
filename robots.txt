@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sainiparv2k26-spec.github.io/Blog.website/sitemap.xml

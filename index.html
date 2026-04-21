@@ -2,18 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#7a5534" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>YYC Daily | Calgary Newsletter</title>
   <meta
     name="description"
-    content="YYC Daily is a Calgary-focused newsletter featuring local perspective, cannabis commentary, culture, and thoughtful writing."
+    content="YYC Daily is a Calgary-focused newsletter featuring local perspective, culture, city trends, cannabis commentary, and thoughtful editorial writing."
   />
   <meta
     name="keywords"
-    content="YYC newsletter, Calgary newsletter, cannabis Calgary, local newsletter, Leon Zen"
+    content="YYC newsletter, Calgary newsletter, Calgary culture, cannabis Calgary, Leon Zen, YYC writing"
   />
   <meta name="author" content="Leon Zen" />
+
+  <meta property="og:title" content="YYC Daily | Calgary Newsletter" />
+  <meta
+    property="og:description"
+    content="Calgary perspectives, local culture, and thoughtful newsletter writing in one place."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sainiparv2k26-spec.github.io/Blog.website/" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,12 +32,12 @@
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="style.css?v=1" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a href="#top" class="brand">
+      <a href="#top" class="brand" aria-label="YYC Daily home">
         <div class="brand-badge">YYC</div>
         <div class="brand-copy">
           <h1>YYC Daily</h1>
@@ -35,7 +45,7 @@
         </div>
       </a>
 
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#newsletters">Newsletters</a>
       </nav>
@@ -43,82 +53,106 @@
   </header>
 
   <main id="top">
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
         <div class="hero-content">
-          <span class="eyebrow">Daily YYC newsletter</span>
-          <h2>Calgary perspectives, culture, and cannabis commentary in one place.</h2>
+          <span class="eyebrow">YYC newsletter</span>
+          <h2 id="hero-title">
+            Clear Calgary perspectives, local culture, and thoughtful writing in one place.
+          </h2>
           <p class="hero-text">
-            A clean public newsletter website focused on YYC writing, local market
-            perspectives, and thoughtful editorial-style pieces.
+            YYC Daily is a calm public newsletter platform for readers who want local
+            perspective, meaningful ideas, and clean editorial-style writing rooted in Calgary.
           </p>
 
           <div class="hero-actions">
-            <a href="#newsletters" class="btn btn-dark">Read Newsletter</a>
+            <a href="#newsletters" class="btn btn-dark">Read Latest Issue</a>
             <a href="#about" class="btn btn-light">About YYC Daily</a>
           </div>
         </div>
 
-        <div class="hero-card">
+        <aside class="hero-panel" aria-label="Site highlights">
+          <div class="hero-panel-line"></div>
           <h3>Inside YYC Daily</h3>
           <ul>
-            <li>YYC market perspectives</li>
-            <li>Calgary culture commentary</li>
-            <li>Cannabis writing and local trends</li>
-            <li>Clean, readable newsletter publishing</li>
+            <li>Calgary-focused newsletters</li>
+            <li>Local market and city perspectives</li>
+            <li>Culture, cannabis, and thoughtful commentary</li>
+            <li>Clean reading without distraction</li>
           </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="container section-shell">
+        <div class="section-head section-head-left">
+          <div>
+            <span class="eyebrow">About</span>
+            <h2 id="about-title">What YYC Daily is about</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              YYC Daily is a Calgary-centered newsletter website focused on perspective,
+              relevance, and clarity. It is built around the idea that local writing should
+              feel both thoughtful and current—grounded in the city, but connected to larger
+              conversations in culture, business, technology, and everyday life.
+            </p>
+
+            <p>
+              This is not a noisy media site or a cluttered blog feed. It is a clean reading
+              space for newsletter-style writing that values strong ideas, simple presentation,
+              and consistency over distraction.
+            </p>
+
+            <p>
+              Whether the topic is Calgary’s tech shift, market changes, cannabis culture,
+              local trends, or city identity, YYC Daily is designed to publish writing that
+              feels direct, readable, and worth returning to.
+            </p>
+          </div>
+
+          <aside class="about-card" aria-label="Editorial focus">
+            <span class="mini-label">Editorial Focus</span>
+            <h3>Local perspective, written with purpose.</h3>
+            <p>
+              Every issue is meant to feel intentional—less noise, more clarity, and a stronger
+              connection to what is actually happening in YYC.
+            </p>
+          </aside>
         </div>
       </div>
     </section>
 
-    <section id="about" class="about-section">
-      <div class="container about-grid">
-        <div>
-          <span class="eyebrow">About</span>
-          <h2>A simple static newsletter website for Calgary-focused writing.</h2>
-          <p>
-            YYC Daily is built as a public, read-only newsletter site. New issues are
-            added manually by editing the code, making it lightweight, simple, and
-            easy to run on GitHub Pages.
-          </p>
-          <p>
-            It is ideal for publishing daily or weekly newsletters without needing any
-            backend, login system, or admin panel.
-          </p>
-        </div>
-
-        <div class="about-card">
-          <h3>How posting works</h3>
-          <p>
-            To publish a new newsletter, edit the <strong>posts</strong> array inside
-            <strong>script.js</strong>, save, commit, and push to GitHub.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="newsletters" class="newsletters-section">
-      <div class="container">
+    <section id="newsletters" class="newsletters-section" aria-labelledby="newsletters-title">
+      <div class="container section-shell">
         <div class="section-head">
           <div>
             <span class="eyebrow">Newsletters</span>
-            <h2>Latest YYC writing</h2>
+            <h2 id="newsletters-title">Latest YYC writing</h2>
           </div>
           <p class="section-note">
-            Search newsletters and browse the newest issue first.
+            Browse the latest issue first and search through every published newsletter.
           </p>
         </div>
 
-        <div class="search-wrap">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="Search newsletters..."
-            aria-label="Search newsletters"
-          />
+        <div class="toolbar">
+          <div class="search-wrap">
+            <label for="searchInput" class="sr-only">Search newsletters</label>
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search newsletters..."
+              aria-label="Search newsletters"
+              autocomplete="off"
+            />
+          </div>
         </div>
 
-        <div class="results-row">
+        <div class="results-row" aria-live="polite">
           <p id="resultsCount">0 newsletters</p>
           <p>Sorted by newest</p>
         </div>
@@ -131,8 +165,18 @@
   <div id="postModal" class="modal hidden" aria-hidden="true">
     <div id="modalOverlay" class="modal-overlay"></div>
 
-    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <button id="closeModalBtn" class="close-modal" aria-label="Close newsletter">
+    <div
+      class="modal-content"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+      <button
+        id="closeModalBtn"
+        class="close-modal"
+        type="button"
+        aria-label="Close newsletter"
+      >
         &times;
       </button>
 
@@ -147,6 +191,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=1"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>
