@@ -95,9 +95,11 @@ function renderPosts() {
           ${imageMarkup}
           <div class="post-body">
             <span class="post-label">Newsletter</span>
+
             <div class="post-meta">
               <span class="post-date">${formatDisplayDate(post.date)}</span>
             </div>
+
             <h3 class="post-title">${escapeHtml(post.title)}</h3>
             <p class="post-excerpt">${escapeHtml(post.excerpt)}</p>
             <button class="read-btn" data-post-id="${post.id}">Read Full Issue →</button>
@@ -146,13 +148,20 @@ function closePostModal() {
   document.body.style.overflow = "";
 }
 
-searchInput.addEventListener("input", (event) => {
-  searchTerm = event.target.value.trim();
-  renderPosts();
-});
+if (searchInput) {
+  searchInput.addEventListener("input", (event) => {
+    searchTerm = event.target.value.trim();
+    renderPosts();
+  });
+}
 
-closeModalBtn.addEventListener("click", closePostModal);
-modalOverlay.addEventListener("click", closePostModal);
+if (closeModalBtn) {
+  closeModalBtn.addEventListener("click", closePostModal);
+}
+
+if (modalOverlay) {
+  modalOverlay.addEventListener("click", closePostModal);
+}
 
 window.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && !postModal.classList.contains("hidden")) {

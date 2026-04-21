@@ -7,29 +7,29 @@
   <title>YYC Daily | Calgary Newsletter</title>
   <meta
     name="description"
-    content="YYC Daily is a Calgary-focused newsletter featuring local perspectives, culture, cannabis commentary, and thoughtful writing from YYC."
+    content="YYC Daily is a Calgary-focused newsletter featuring local perspective, cannabis commentary, culture, and thoughtful writing."
   />
   <meta
     name="keywords"
-    content="YYC newsletter, Calgary newsletter, cannabis Calgary, Calgary culture, daily newsletter, YYC writing"
+    content="YYC newsletter, Calgary newsletter, cannabis Calgary, local newsletter, Leon Zen"
   />
   <meta name="author" content="Leon Zen" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=1" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <a href="#top" class="brand">
         <div class="brand-badge">YYC</div>
-        <div class="brand-text">
+        <div class="brand-copy">
           <h1>YYC Daily</h1>
           <p>Calgary newsletters, perspectives, and culture</p>
         </div>
@@ -47,27 +47,27 @@
       <div class="container hero-grid">
         <div class="hero-content">
           <span class="eyebrow">Daily YYC newsletter</span>
-          <h2>Sharp Calgary perspectives, delivered through thoughtful writing.</h2>
+          <h2>Calgary perspectives, culture, and cannabis commentary in one place.</h2>
           <p class="hero-text">
-            YYC Daily is a read-only public newsletter website focused on Calgary
-            culture, local perspective, cannabis commentary, and meaningful ideas.
+            A clean public newsletter website focused on YYC writing, local market
+            perspectives, and thoughtful editorial-style pieces.
           </p>
 
           <div class="hero-actions">
-            <a href="#newsletters" class="btn btn-dark">Read Latest</a>
+            <a href="#newsletters" class="btn btn-dark">Read Newsletter</a>
             <a href="#about" class="btn btn-light">About YYC Daily</a>
           </div>
         </div>
 
-        <aside class="hero-card">
-          <h3>What this site publishes</h3>
+        <div class="hero-card">
+          <h3>Inside YYC Daily</h3>
           <ul>
-            <li>Daily or weekly YYC newsletters</li>
-            <li>Cannabis market perspectives</li>
-            <li>Local culture and trend writing</li>
-            <li>Thoughtful editorial-style pieces</li>
+            <li>YYC market perspectives</li>
+            <li>Calgary culture commentary</li>
+            <li>Cannabis writing and local trends</li>
+            <li>Clean, readable newsletter publishing</li>
           </ul>
-        </aside>
+        </div>
       </div>
     </section>
 
@@ -75,28 +75,29 @@
       <div class="container about-grid">
         <div>
           <span class="eyebrow">About</span>
-          <h2>A Calgary newsletter space built for clarity and consistency.</h2>
+          <h2>A simple static newsletter website for Calgary-focused writing.</h2>
           <p>
-            This website is designed as a clean, static newsletter publication for
-            YYC-focused writing. Visitors can read published pieces, while all new
-            newsletters are added manually by editing the site code.
+            YYC Daily is built as a public, read-only newsletter site. New issues are
+            added manually by editing the code, making it lightweight, simple, and
+            easy to run on GitHub Pages.
           </p>
           <p>
-            It is simple, fast, lightweight, and ideal for GitHub Pages hosting.
+            It is ideal for publishing daily or weekly newsletters without needing any
+            backend, login system, or admin panel.
           </p>
         </div>
 
         <div class="about-card">
-          <h3>How publishing works</h3>
+          <h3>How posting works</h3>
           <p>
-            To publish a new newsletter, just edit the <strong>posts</strong> array
-            in <strong>script.js</strong>, save, commit, and push to GitHub.
+            To publish a new newsletter, edit the <strong>posts</strong> array inside
+            <strong>script.js</strong>, save, commit, and push to GitHub.
           </p>
         </div>
       </div>
     </section>
 
-    <section id="newsletters" class="posts-section">
+    <section id="newsletters" class="newsletters-section">
       <div class="container">
         <div class="section-head">
           <div>
@@ -104,19 +105,17 @@
             <h2>Latest YYC writing</h2>
           </div>
           <p class="section-note">
-            Search newsletters and browse the newest writing first.
+            Search newsletters and browse the newest issue first.
           </p>
         </div>
 
-        <div class="toolbar">
-          <div class="search-wrap">
-            <input
-              type="text"
-              id="searchInput"
-              placeholder="Search newsletters..."
-              aria-label="Search newsletters"
-            />
-          </div>
+        <div class="search-wrap">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search newsletters..."
+            aria-label="Search newsletters"
+          />
         </div>
 
         <div class="results-row">
@@ -137,7 +136,7 @@
         &times;
       </button>
 
-      <article id="modalArticle" class="modal-article"></article>
+      <article id="modalArticle"></article>
     </div>
   </div>
 
@@ -148,6 +147,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=1"></script>
 </body>
 </html>
