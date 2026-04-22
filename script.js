@@ -20,7 +20,7 @@ Because at the end of the day, cannabis isn’t just about getting “higher” 
 
 — Leon Zen
 YYC Writer`,
-    image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0079.jpeg"
+    image: "https://sainiparv2k26-spec.github.io/Newsletters.leonZen/IMG_0079.jpeg"
   }
 
 ,
@@ -49,7 +49,7 @@ Because the future of power is changing. It is no longer only about what comes f
 
 — Leon Zen  
 YYC Writer`,
-  image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0086.jpeg"
+  image: "https://sainiparv2k26-spec.github.io/Newsletters.leonZen/IMG_0086.jpeg"
 }
 
 ,
@@ -80,7 +80,7 @@ And it all starts with something simple. A chair outside, waiting to be used.
 
 — Leon Zen
 YYC Writer`,
-  image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0093.jpeg"
+  image: "https://sainiparv2k26-spec.github.io/Newsletters.leonZen/IMG_0093.jpeg"
 }
 ];
 
