@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+  <!-- Homepage -->
   <url>
-    <loc>https://sainiparv2k26-spec.github.io/Blog.website/</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Main Sections -->
+  <url>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/#about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/#focus</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/#featured</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/#newsletters</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://sainiparv2k26-spec.github.io/Newsletters.leonZen/#signup</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>

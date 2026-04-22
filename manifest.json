@@ -1,21 +1,55 @@
 {
   "name": "YYC Daily",
-  "short_name": "YYC Daily",
-  "start_url": "/Blog.website/",
+  "short_name": "YYC",
+  "description": "YYC Daily is a Calgary-focused newsletter platform sharing local perspectives on culture, city life, cannabis, and technology.",
+  
+  "start_url": "/Newsletters.leonZen/",
+  "scope": "/Newsletters.leonZen/",
+  
   "display": "standalone",
-  "background_color": "#f7f3eb",
-  "theme_color": "#7a5534",
-  "description": "Calgary newsletters, perspectives, and culture.",
+  "orientation": "portrait",
+  
+  "background_color": "#07101a",
+  "theme_color": "#0c1421",
+  
+  "lang": "en-US",
+  "dir": "ltr",
+
   "icons": [
     {
-      "src": "IMG_0079.jpeg",
+      "src": "/Newsletters.leonZen/IMG_0079.jpeg",
       "sizes": "192x192",
-      "type": "image/jpeg"
+      "type": "image/jpeg",
+      "purpose": "any maskable"
     },
     {
-      "src": "IMG_0079.jpeg",
+      "src": "/Newsletters.leonZen/IMG_0079.jpeg",
       "sizes": "512x512",
-      "type": "image/jpeg"
+      "type": "image/jpeg",
+      "purpose": "any maskable"
     }
-  ]
+  ],
+
+  "categories": [
+    "news",
+    "lifestyle",
+    "technology"
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Latest Newsletters",
+      "short_name": "Latest",
+      "description": "Browse the latest YYC Daily issues",
+      "url": "/Newsletters.leonZen/#newsletters"
+    },
+    {
+      "name": "Subscribe",
+      "short_name": "Subscribe",
+      "description": "Join the YYC Daily newsletter",
+      "url": "/Newsletters.leonZen/#signup"
+    }
+  ],
+
+  "prefer_related_applications": false
 }
