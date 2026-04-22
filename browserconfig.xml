@@ -2,8 +2,11 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square150x150logo src="IMG_0079.jpeg"/>
-      <TileColor>#7a5534</TileColor>
+      <!-- Use proper path for GitHub Pages subfolder -->
+      <square150x150logo src="/Newsletters.leonZen/IMG_0079.jpeg"/>
+
+      <!-- Better contrast tile color -->
+      <TileColor>#0b1220</TileColor>
     </tile>
   </msapplication>
 </browserconfig>

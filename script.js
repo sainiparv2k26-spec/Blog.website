@@ -16,12 +16,11 @@
     stickyCtaOffset: 700,
     focusableSelector:
       'a[href], area[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
-    storageKeys: {
-      theme: "yyc-theme",
-      bookmarks: "yyc-bookmarks",
-      announcementDismissed: "yyc-announcement-dismissed",
-      signupPrefs: "yyc-signup-prefs-v2"
-    },
+  storageKeys: {
+  theme: "yyc-theme",
+  bookmarks: "yyc-bookmarks",
+  announcementDismissed: "yyc-announcement-dismissed"
+},
     selectors: {
       progressBar: "#progressBar",
       announcementBar: "#announcementBar",

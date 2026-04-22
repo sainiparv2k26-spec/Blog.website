@@ -1,4 +1,17 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sainiparv2k26-spec.github.io/Blog.website/sitemap.xml
+# Prevent indexing of hash-based modal URLs
+Disallow: /*#
+
+# Block unnecessary technical files
+Disallow: /Newsletters.leonZen/sw.js
+
+# Allow important assets for rendering
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpeg$
+Allow: /*.png$
+
+# Correct sitemap path
+Sitemap: https://sainiparv2k26-spec.github.io/Newsletters.leonZen/sitemap.xml
