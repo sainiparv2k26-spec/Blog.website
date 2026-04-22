@@ -1,4 +1,5 @@
 const posts = [
+ 
   {
     id: 1,
     title: "YYC Cannabis Market Perspective: Chasing THC or Chasing Quality?",
@@ -49,6 +50,37 @@ Because the future of power is changing. It is no longer only about what comes f
 — Leon Zen  
 YYC Writer`,
   image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0086.jpeg"
+}
+
+,
+{
+  id: 3,
+  title: "YYC Street Life Perspective: Patio Season Returns and Summer Is Calling",
+  date: "2026-04-22",
+  excerpt: "As patios return to Calgary’s streets, the city begins to shift into its summer rhythm, with energy building ahead of festival season and the Stampede.",
+  content: `YYC Street Life Perspective: Patio Season Returns and Summer Is Calling
+
+April 22, 2026
+
+There is a small change happening across Calgary that says a lot more than it seems. Cafes are setting their chairs back outside, and just like that, the city feels alive again.
+
+After months of winter routines, people are slowing down. Sidewalks are no longer just for passing through. Coffee is being enjoyed under the sun, conversations are stretching, and there is a noticeable shift in energy. Calgary is stepping into its summer rhythm.
+
+But this year, it feels like more than just warmer weather. It feels like the start of something bigger. As patios fill up in areas like Kensington and 17th Ave, there is a growing sense of anticipation. Summer in Calgary is never quiet, and the city is already preparing for it.
+
+With major events like the Calgary Stampede returning in full force, along with a packed calendar of local markets, live music, and cultural festivals, the momentum is building. According to Tourism Calgary, the city sees a significant rise in visitors and local activity during the summer months, with the Stampede alone drawing over a million attendees each year. That kind of energy does not stay contained, it spreads across neighborhoods, businesses, and everyday life.
+
+For local cafes, putting chairs outside is more than a seasonal habit. It is a signal. It means they are ready for the crowds, the longer days, and the steady flow of people exploring the city. Outdoor seating brings visibility and creates those small moments that turn into lasting habits for customers.
+
+For Calgarians, it is a reminder to step back into the city. To take advantage of the short but vibrant season. To be part of the atmosphere instead of just passing through it.
+
+Because in YYC, summer is not just about the weather. It is about the feeling. The buildup before the Stampede, the busy streets, the music, the late evenings, and the sense that the city is fully awake again.
+
+And it all starts with something simple. A chair outside, waiting to be used.
+
+— Leon Zen
+YYC Writer`,
+  image: "https://sainiparv2k26-spec.github.io/Blog.website/IMG_0093.jpeg"
 }
 ];
 
